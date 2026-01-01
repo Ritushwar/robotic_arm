@@ -18,7 +18,7 @@ void setup() {
 int get_curr_position(int pos){
   // read the position of each joints using potentiometer
   int raw = analogRead(pos);
-  int angle = map(raw,0,1023, 0, 180);
+  int angle = map(raw,0,1023, 0, 270);
   return angle;
 }
 
