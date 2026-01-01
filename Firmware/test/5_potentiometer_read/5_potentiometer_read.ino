@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   value = analogRead(pos_x);
-  angle = map(value,0,1023,0,180);
+  angle = map(value,0,1023,0,250);
   Serial.println(angle);
   delay(1000);
 }
