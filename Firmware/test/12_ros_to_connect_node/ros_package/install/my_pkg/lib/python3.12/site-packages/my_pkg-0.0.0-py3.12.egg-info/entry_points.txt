@@ -1,0 +1,3 @@
+[console_scripts]
+serial_reader = my_pkg.serial_reader:main
+serial_writer = my_pkg.serial_writer:main

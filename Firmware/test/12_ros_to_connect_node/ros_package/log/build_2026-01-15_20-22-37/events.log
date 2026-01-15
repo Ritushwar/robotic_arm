@@ -1,0 +1,40 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (my_pkg) JobQueued: {'identifier': 'my_pkg', 'dependencies': OrderedDict()}
+[0.000463] (my_pkg) JobStarted: {'identifier': 'my_pkg'}
+[0.099951] (-) TimerEvent: {}
+[0.200200] (-) TimerEvent: {}
+[0.300490] (-) TimerEvent: {}
+[0.400790] (-) TimerEvent: {}
+[0.501083] (-) TimerEvent: {}
+[0.601320] (-) TimerEvent: {}
+[0.668113] (my_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_pkg', 'build', '--build-base', '/home/ritu/connect_mc_ros/build/my_pkg/build', 'install', '--record', '/home/ritu/connect_mc_ros/build/my_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ritu/connect_mc_ros/src/my_pkg', 'env': {'USER': 'ritu', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ritu', 'OLDPWD': '/home/ritu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ritu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ritu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ritushwar:@/tmp/.ICE-unix/2228,unix/ritushwar:/tmp/.ICE-unix/2228', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/53509393_b86c_412c_8709_431889a831ca', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.A5XFJ3', 'GNOME_TERMINAL_SERVICE': ':1.659', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ritu/connect_mc_ros/build/my_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ritu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ritu/connect_mc_ros/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritu/connect_mc_ros/install/my_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.701482] (-) TimerEvent: {}
+[0.801793] (-) TimerEvent: {}
+[0.856753] (my_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.869678] (my_pkg) StdoutLine: {'line': b'writing ../../build/my_pkg/my_pkg.egg-info/PKG-INFO\n'}
+[0.869874] (my_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_pkg/my_pkg.egg-info/dependency_links.txt\n'}
+[0.870001] (my_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_pkg/my_pkg.egg-info/entry_points.txt\n'}
+[0.870121] (my_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_pkg/my_pkg.egg-info/requires.txt\n'}
+[0.870222] (my_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_pkg/my_pkg.egg-info/top_level.txt\n'}
+[0.898695] (my_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'\n"}
+[0.899527] (my_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'\n"}
+[0.899701] (my_pkg) StdoutLine: {'line': b'running build\n'}
+[0.899791] (my_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.899890] (my_pkg) StdoutLine: {'line': b'copying my_pkg/serial_writer.py -> /home/ritu/connect_mc_ros/build/my_pkg/build/lib/my_pkg\n'}
+[0.900290] (my_pkg) StdoutLine: {'line': b'running install\n'}
+[0.901857] (-) TimerEvent: {}
+[0.905578] (my_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.919887] (my_pkg) StdoutLine: {'line': b'copying /home/ritu/connect_mc_ros/build/my_pkg/build/lib/my_pkg/serial_writer.py -> /home/ritu/connect_mc_ros/install/my_pkg/lib/python3.12/site-packages/my_pkg\n'}
+[0.920412] (my_pkg) StdoutLine: {'line': b'byte-compiling /home/ritu/connect_mc_ros/install/my_pkg/lib/python3.12/site-packages/my_pkg/serial_writer.py to serial_writer.cpython-312.pyc\n'}
+[0.921194] (my_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.921327] (my_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.935600] (my_pkg) StdoutLine: {'line': b"removing '/home/ritu/connect_mc_ros/install/my_pkg/lib/python3.12/site-packages/my_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[0.935785] (my_pkg) StdoutLine: {'line': b'Copying ../../build/my_pkg/my_pkg.egg-info to /home/ritu/connect_mc_ros/install/my_pkg/lib/python3.12/site-packages/my_pkg-0.0.0-py3.12.egg-info\n'}
+[0.936514] (my_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.001961] (-) TimerEvent: {}
+[1.027787] (my_pkg) StdoutLine: {'line': b'Installing serial_reader script to /home/ritu/connect_mc_ros/install/my_pkg/lib/my_pkg\n'}
+[1.027992] (my_pkg) StdoutLine: {'line': b'Installing serial_writer script to /home/ritu/connect_mc_ros/install/my_pkg/lib/my_pkg\n'}
+[1.028206] (my_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ritu/connect_mc_ros/build/my_pkg/install.log'\n"}
+[1.054340] (my_pkg) CommandEnded: {'returncode': 0}
+[1.063882] (my_pkg) JobEnded: {'identifier': 'my_pkg', 'rc': 0}
+[1.064392] (-) EventReactorShutdown: {}
