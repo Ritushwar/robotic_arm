@@ -43,16 +43,19 @@ This folder contains various test programs for the robotic arm firmware. Below i
 - Both motors are updated to reach a target angle received via serial input.
 
 ### 9. 9_i2c_address_scanner
-**File:** `9_i2c_address_scanner/10_i2c_address_scanner.ino`
+**File:** `9_i2c_address_scanner/9_i2c_address_scanner.ino`
 - Scans the I2C bus for connected devices and prints their addresses to the serial monitor.
 - Useful for identifying I2C devices and troubleshooting connections.
 
 ### 10. 10_magnet_strength
-**File:** `10_magnet_strength/11_magnet_strength.ino`
+**File:** `10_magnet_strength/10_magnet_strength.ino`
 - Checks the status of the magnet detected by the AS5600L sensor.
 - Reports if the magnet is detected, too weak, too strong, or not present, and prints status to the serial monitor.
 
 ### 11. 11_read_rawAngle
-**File:** `11_read_rawAngle/12_read_rawAngle.ino`
+**File:** `11_read_rawAngle/11_read_rawAngle.ino`
 - Reads the raw angle value from the AS5600L magnetic encoder at I2C address 0x36.
 - Converts the raw value to degrees and prints both values to the serial monitor.
+
+### 12. 12_ros_to_connect_node
+   It is described on the readme file inside the folder
