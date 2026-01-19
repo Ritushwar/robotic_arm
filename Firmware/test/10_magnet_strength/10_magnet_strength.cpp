@@ -1,5 +1,4 @@
 #include <AS5600.h>
-
 #include <Wire.h>
 
 
