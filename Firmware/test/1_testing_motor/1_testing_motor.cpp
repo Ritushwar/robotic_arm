@@ -1,5 +1,5 @@
 #include <AccelStepper.h>
-#define EN_PIN 8
+#define EN_PIN 18
 AccelStepper stepper(AccelStepper::DRIVER, 2, 5);
 
 void setup() {
